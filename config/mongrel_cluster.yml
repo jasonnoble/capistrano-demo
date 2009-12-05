@@ -1,5 +1,5 @@
 --- 
-cwd: /var/www/rails/jasonn/shopping_cart/current
+cwd: /var/www/rails/jasonn2/shopping_cart/current
 log_file: log/mongrel.log
 port: "7010"
 environment: production
