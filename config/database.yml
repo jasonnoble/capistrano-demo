@@ -36,7 +36,7 @@ test:
 production:
   adapter: mysql
   encoding: utf8
-  database: depot_production
+  database: depot_production_jasonn2
   username: root
   password: 
-  socket: /tmp/mysql.sock
+  socket: /var/lib/mysql/mysql.sock
