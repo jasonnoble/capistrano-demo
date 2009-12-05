@@ -7,15 +7,15 @@ set :repository, 'git@github.com:jasonnoble/capistrano-demo.git'
 # set :local_scm_command, "git"
                            
 set :scm, :git                                 
-set :user, "jasonn"
+set :user, "jasonn2"
 default_run_options[:pty] = true
 set :branch, "master"
 set :deploy_to, "/var/www/rails/#{user}/#{application}"             
 set :deploy_via, :remote_cache    
 
-role :web, "10.130.84.121"                          # Your HTTP server, Apache/etc
-role :app, "10.130.84.121"                          # This may be the same as your `Web` server
-role :db,  "10.130.84.121", :primary => true # This is where Rails migrations will run      
+role :web, "10.0.1.181"                          # Your HTTP server, Apache/etc
+role :app, "10.0.1.181"                          # This may be the same as your `Web` server
+role :db,  "10.0.1.181", :primary => true # This is where Rails migrations will run      
 
 set :mongrel_conf, "#{current_path}/config/mongrel_cluster.yml"
 
