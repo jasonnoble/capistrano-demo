@@ -9,7 +9,7 @@ set :repository, 'git@github.com:jasonnoble/capistrano-demo.git'
 set :scm, :git                                 
 set :user, "jasonn2"
 default_run_options[:pty] = true
-set :branch, "master"
+set :branch, "working_capistrano_deploys"
 set :deploy_to, "/var/www/rails/#{user}/#{application}"             
 set :deploy_via, :remote_cache    
 
