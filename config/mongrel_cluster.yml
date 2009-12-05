@@ -1,0 +1,8 @@
+--- 
+cwd: /var/www/rails/jasonn2/shopping_cart/current
+log_file: log/mongrel.log
+port: "7000"
+environment: production
+address: 0.0.0.0
+pid_file: tmp/pids/mongrel.pid
+servers: 2
